@@ -3,5 +3,26 @@ Content-Type: application/json
 
 {
     "name": "Teste",
-    "email": "teste@example.com"
+    "email": "teste3@example.com",
+    "referrer": "b98e0136-5f9b-4bfe-9a5e-b37f795f12fa"
 }
+
+###
+
+GET http://localhost:3333/invite/b98e0136-5f9b-4bfe-9a5e-b37f795f12fa
+
+###
+
+GET http://localhost:3333/subscribers/b98e0136-5f9b-4bfe-9a5e-b37f795f12fa/ranking/clicks
+
+###
+
+GET http://localhost:3333/subscribers/b98e0136-5f9b-4bfe-9a5e-b37f795f12fa/ranking/count
+
+###
+
+GET http://localhost:3333/subscribers/b98e0136-5f9b-4bfe-9a5e-b37f795f12fa/ranking/position
+
+###
+
+GET http://localhost:3333/ranking
